@@ -5,12 +5,8 @@
         { "VTOY_DEFAULT_SEARCH_ROOT": "/_ISO" },
         { "VTOY_WIN11_BYPASS_CHECK": "1" }
     ],
-    "theme": {
+    "theme":{
         "file": "/ventoy/theme/poly-dark/theme.txt",
-        "gfxmode": "1920x1080",
-        "display_mode": "GUI",
-        "ventoy_left": "5%",
-        "ventoy_top": "95%",
         "ventoy_color": "#ff0000"
     },
     "menu_class": [
@@ -54,6 +50,14 @@
             "key": "Ghost",
             "class": "ghost"
         },
+		{
+            "key": "gparted-",
+            "class": "gparted"
+        },
+        {
+            "key": "kali-linux-",
+            "class": "kali"
+        },
         {
             "key": "linuxmint-",
             "class": "linuxmint"
@@ -62,16 +66,40 @@
             "key": "macOS",
             "class": "macosx"
         },
+		{
+            "key": "manjaro-",
+            "class": "manjaro"
+        },
         {
             "key": "openSUSE-",
             "class": "opensuse"
+        },
+		        {
+            "key": "OPNsense-",
+            "class": "opnsense"
+        },
+        {
+            "key": "proxmox-",
+            "class": "proxmox"
+        },
+        {
+            "key": "Qubes-",
+            "class": "qubes"
         },
         {
             "key": "Symantec",
             "class": "symantec"
         },
+		        {
+            "key": "tails-",
+            "class": "tails"
+        },
         {
-            "key": "Win_7",
+            "key": "VMware-",
+            "class": "vmware"
+        },
+        {
+            "key": "Win-7",
             "class": "windows_7"
         },
         {
@@ -83,7 +111,7 @@
             "class": "windows_8"
         },
         {
-            "key": "Win10",
+            "key": "Win-10",
             "class": "windows_10"
         },
         {
@@ -152,6 +180,10 @@
         },
         {
             "dir": "/_ISO/WinPE",
+            "class": "win_pe"
+        },
+		{
+            "key": "PhoenixPE_en-US_x64",
             "class": "win_pe"
         }
     ]
