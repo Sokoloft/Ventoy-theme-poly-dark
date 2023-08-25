@@ -30,6 +30,10 @@
             "key": "clonezilla-",
             "class": "clonezilla"
         },
+		{
+            "key": "dban-",
+            "class": "dban"
+        },
         {
             "key": "debian-",
             "class": "debian"
@@ -70,11 +74,19 @@
             "key": "manjaro-",
             "class": "manjaro"
         },
+		{
+            "key": "mt86plus_",
+            "class": "mt86plus"
+        },
+		{
+            "key": "Nobara-",
+            "class": "nobara"
+        },
         {
             "key": "openSUSE-",
             "class": "opensuse"
         },
-		        {
+		{
             "key": "OPNsense-",
             "class": "opnsense"
         },
@@ -184,7 +196,7 @@
         },
 		{
             "key": "PhoenixPE_en-US_x64",
-            "class": "win_pe"
+            "class": "PhoenixPE"
         }
     ]
 }
